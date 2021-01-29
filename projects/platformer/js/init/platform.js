@@ -28,6 +28,8 @@
 
         ////////////////////////////////////////////////////////////////////////
         // ALL YOUR CODE GOES BELOW HERE ///////////////////////////////////////
+
+
 // platfrom code        
 createPlatform(0, game.world.height - 32, 3, 2);    // DO NOT DELETE
  
@@ -35,14 +37,7 @@ createPlatform(400, 460);           // normal platform
 createPlatform(300, 200, 0.3)       // small horizontal platform (30% the normal width)
 createPlatform(500, 500, 0.3, 10)   // tall vertical wall (30% the normal width and 10x the height)
 
-// collectables code
-createCollectable(type.kennedi, x, y, gravity, bounce);
-createCollectable(type.kennedi, x, y, gravity, bounce);
-createCollectable(type.kennedi, x, y, gravity, bounce);
 
-// cannon code
-createCannon(left, position, delay);
-createCannon(right, position, delay);
 
         // ALL YOUR CODE GOES ABOVE HERE ///////////////////////////////////////
         ////////////////////////////////////////////////////////////////////////
